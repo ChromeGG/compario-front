@@ -98,22 +98,3 @@ docs/_book
 
 test/
 
-.gitignore
-.idea/$PRODUCT_WORKSPACE_FILE$
-.idea/.gitignore
-.idea/compario-front.iml
-.idea/dictionaries/
-.idea/inspectionProfiles/
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-License.pdf
-README.md
-babel.config.js
-cypress.json
-demo/
-package-lock.json
-package.json
-public/
-src/
-tests/
