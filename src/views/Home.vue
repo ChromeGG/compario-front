@@ -1,44 +1,26 @@
 <template>
-    <mdb-row>
-        <mdb-col md="12">
-            <mdb-navbar color="purple-gradient" class="lighten-3 py-4 mb-4">
-                <mdb-navbar-nav nav class="font-weight-bold">
-                    <mdb-nav-item href="" active anchorClass="white-text"><img src="../assets/logo-icon.png"
-                                                                               alt="login-icon">
-                    </mdb-nav-item>
-                    <mdb-nav-item href="#" anchorClass="white-text">Link</mdb-nav-item>
-                    <mdb-nav-item href="#" anchorClass="white-text">Link</mdb-nav-item>
-                    <mdb-nav-item class="float-right" href="#" anchorClass="white-text">Login <img
-                            src="../assets/login-icon.png"
-                            class="img-fluid" alt="login-icon"></mdb-nav-item>
-                </mdb-navbar-nav>
-            </mdb-navbar>
-        </mdb-col>
-    </mdb-row>
+    <div class="main-container">
+        <navigation></navigation>
+    </div>
 </template>
 
 <script>
-    import {mdbCol, mdbNavbar, mdbNavbarNav, mdbNavItem, mdbRow} from 'mdbvue';
+    import navigation from '../components/Navigation.vue';
 
     export default {
         name: 'home',
         components: {
-            mdbNavbar,
-            mdbNavbarNav,
-            mdbNavItem,
-            mdbRow,
-            mdbCol
+            navigation
         }
     }
 </script>
 
+<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-    .white-text {
-    @include float-right !important;
+    div {
+        margin: 0 !important;
+        padding: 0 0 0 0 !important;
     }
 
-    .nav a.white-text:hover {
-        color: #e0e0e0 !important;
-    }
 </style>
