@@ -1,14 +1,15 @@
 <template>
     <div>
         <navigation/>
-        <searchComponent/>
-
+        <div class="d-flex justify-content-center align-items-center">
+            <searchComponent/>
+        </div>
     </div>
 </template>
 
 <script>
     import navigation from '../components/Navigation.vue';
-    import searchComponent from '../components/SearchComponent'
+    import searchComponent from '../components/SearchComponent.vue'
 
     export default {
         name: 'home',
