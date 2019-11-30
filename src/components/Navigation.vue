@@ -1,13 +1,17 @@
 <template>
-    <mdb-navbar position="top" dark color="purple-gradient" scrolling>
-        <mdb-navbar-brand href="#"><img src="../assets/logo-icon.png" alt="logo-icon"></mdb-navbar-brand>
-        <mdb-navbar-toggler class="d-flex justify-content-end">
-            <div>
-                <mdb-navbar-nav>
-                    <mdb-nav-item href="#" waves-fixed>Login <img src="../assets/login-icon.png" alt="login-icon">
-                    </mdb-nav-item>
-                </mdb-navbar-nav>
-            </div>
+    <mdb-navbar color="purple-gradient" dark>
+        <mdb-navbar-brand>
+            <img src="../assets/logo-icon.png" alt="logo-icon">
+        </mdb-navbar-brand>
+        <mdb-navbar-toggler>
+            <mdb-navbar-nav>
+                <mdb-nav-item href="#" active>Home</mdb-nav-item>
+                <mdb-nav-item href="#">Features</mdb-nav-item>
+                <mdb-nav-item href="#">Pricing</mdb-nav-item>
+            </mdb-navbar-nav>
+            <form class="white-text">
+                Login <img src="../assets/login-icon.png" alt="login-icon">
+            </form>
         </mdb-navbar-toggler>
     </mdb-navbar>
 </template>
