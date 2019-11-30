@@ -1,5 +1,5 @@
 <template>
-    <mdb-navbar color="purple-gradient" dark>
+    <mdb-navbar color="purple-gradient" dark position="top">
         <mdb-navbar-brand>
             <img src="../assets/logo-icon.png" alt="logo-icon">
         </mdb-navbar-brand>
