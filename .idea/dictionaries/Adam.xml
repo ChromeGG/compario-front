@@ -2,6 +2,7 @@
   <dictionary name="Adam">
     <words>
       <w>navbar</w>
+      <w>toggler</w>
     </words>
   </dictionary>
 </component>
