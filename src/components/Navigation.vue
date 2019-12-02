@@ -37,9 +37,5 @@
         color: inherit !important;
     }
 
-    template {
-        margin-bottom: 100px;
-    }
-
 </style>
 
