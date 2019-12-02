@@ -1,7 +1,7 @@
 <template>
     <div>
         <navigation/>
-        <div class="box">
+        <div class="content">
             <mdb-container>
                 <mdb-row>
                     <mdb-col col="2" style="background-color: grey">1 of 3</mdb-col>
@@ -35,7 +35,7 @@
 
 <style scoped>
 
-    .box {
+    .content {
         margin-top: 74px;
     }
 
