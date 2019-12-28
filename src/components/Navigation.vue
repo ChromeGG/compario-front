@@ -7,7 +7,7 @@
             <mdb-navbar-nav>
                 <mdb-nav-item href="#" active>Home</mdb-nav-item>
                 <mdb-nav-item href="#">Features</mdb-nav-item>
-                <mdb-nav-item href="#">Pricing</mdb-nav-item>
+<!--                <mdb-nav-item href="#">Pricing</mdb-nav-item>-->
             </mdb-navbar-nav>
             <form class="white-text">
                 Login <img src="../assets/login-icon.png" alt="login-icon">

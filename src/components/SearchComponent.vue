@@ -1,7 +1,7 @@
 <template>
     <div class="box night-fade-gradient">
         <mdb-container>
-            <mdb-row>
+            <mdb-row class="mdb-row">
                 <mdb-col col="9">
                     <input class="form-control" type="text" placeholder="Input value " aria-label="Search"/>
                 </mdb-col>
@@ -15,20 +15,25 @@
                     </template>
                 </mdb-col>
             </mdb-row>
+            <mdb-row class="mdb-row">
+                <mdb-col col="12">
+                    <mdb-btn block class="button" color="info" icon="balance-scale"> Compare</mdb-btn>
+                </mdb-col>
+            </mdb-row>
         </mdb-container>
     </div>
 </template>
 
-
 <script>
-    import {mdbCol, mdbContainer, mdbRow} from 'mdbvue';
+    import {mdbBtn, mdbCol, mdbContainer, mdbRow} from 'mdbvue';
 
     export default {
         name: 'SearchComponent',
         components: {
             mdbContainer,
             mdbRow,
-            mdbCol
+            mdbCol,
+            mdbBtn
         }
     }
 </script>
@@ -39,6 +44,11 @@
     .form-control::placeholder {
         font-style: italic;
     }
+
+    .mdb-row {
+        margin-top: 20px;
+    }
+
 
     .box {
         margin-top: 5%;
