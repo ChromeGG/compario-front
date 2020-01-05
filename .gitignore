@@ -98,5 +98,7 @@ docs/_book
 
 test/
 
+dist/
+.idea/
 .idea
 
